@@ -44,10 +44,10 @@ torch(1.7.1)
 pip install -r requirements.txt
 ### 3.check the environment
 python  
->>>import torch  
->>>import numpy  
->>>...  
->>> exit()
+$>>>$import torch  
+$>>>$import numpy  
+$>>>$...  
+$>>>$ exit()
 ### 4. install pytorch in jupyter
 conda install ipykernel
 ### 5. after opening jupyter
