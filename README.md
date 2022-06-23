@@ -34,12 +34,11 @@ conda remove -n [name] --all
 
 ## Manage dependency package versions
 ### 1.create Requirements.txt document (for example Requirements.txt contains the following packages)
-numpy(1.19.5)  
-transformers(4.1.1)   
-pandas(1.1.5)  
-scipy(1.4.1)  
-scikit-learn(0.24.0)  
-torch(1.7.1)  
+numpy==1.20.1  
+pandas==1.4.1  
+scipy==1.8.1  
+scikit-learn==1.1.1  
+torch==1.11.0   
 ### 2.install all required packages
 pip install -r requirements.txt
 ### 3.check the environment
